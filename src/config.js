@@ -16,5 +16,5 @@ export const company = {
   facebook: 'https://www.facebook.com/jandexproperties',
   handle: '@Jandexproperties',
   // Change to the real domain once purchased (also update public/robots.txt).
-  siteUrl: (import.meta.env && import.meta.env.VITE_SITE_URL) || 'https://jandexproperties.netlify.app',
+  siteUrl: (import.meta.env && import.meta.env.VITE_SITE_URL) || 'https://jandex.netlify.app',
 };

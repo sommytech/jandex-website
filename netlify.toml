@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "20"
   # Set to the real domain once connected, e.g. https://www.jandexproperties.com
-  # SITE_URL = "https://jandexproperties.netlify.app"
+  # SITE_URL = "https://jandex.netlify.app"
 
 # Prerendered pages are served directly; unknown paths get the 404 page.
 
