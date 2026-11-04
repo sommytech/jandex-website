@@ -1,0 +1,26 @@
+{
+  "name": "jandex-website",
+  "version": "1.0.0",
+  "description": "Website for Jandex Properties and Facility Management Limited",
+  "scripts": {
+    "dev": "vite",
+    "assets": "node scripts/brand-assets.mjs",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr && node scripts/prerender.mjs",
+    "build:preview": "VITE_PREVIEW=1 vite build --mode preview",
+    "serve": "vite preview"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.35.5",
+    "vite": "^5.4.21",
+    "vite-plugin-singlefile": "^2.3.4"
+  },
+  "type": "module",
+  "private": true
+}
